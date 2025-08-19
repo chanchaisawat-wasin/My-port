@@ -29,7 +29,7 @@ function Hero() {
         {/* Image */}
         <div className="flex-shrink-0">
           <img
-            src="/src/assets/ff33e1e4-feb3-41cf-8441-83cb51906942.png"
+            src="/My-port/ff33e1e4-feb3-41cf-8441-83cb51906942.png"
             alt="Profile"
             className="w-32 h-32 md:w-36 md:h-36 rounded-full border-4 border-green-400 shadow-[0_0_20px_#39FF14] object-cover"
           />
@@ -86,9 +86,9 @@ function Hero() {
       {/* Buttons fixed bottom */}
       <div className="mt-6 flex flex-wrap justify-center gap-4">
         {[
-          { name: "Resume 1", file: "/Resume - Mr.Wasin Chanchaisawat.pdf" },
-          { name: "Resume 2", file: "/วศิน ชาญชัยสวัสดิ์.pdf" },
-          { name: "CV", file: "/CV-Wasin Chanchaisawat (Eng ver.).pdf" },
+          { name: "Resume 1", file: "/My-port/Resume - Mr.Wasin Chanchaisawat.pdf" },
+          { name: "Resume 2", file: "/My-port/วศิน ชาญชัยสวัสดิ์.pdf" },
+          { name: "CV", file: "/My-port/CV-Wasin Chanchaisawat (Eng ver.).pdf" },
         ].map((btn, index) => (
           <motion.a
             key={btn.name}
