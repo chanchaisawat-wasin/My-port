@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
 :root {
   --ink: #020705;
@@ -58,6 +58,10 @@ a {
   min-height: 100vh;
   isolation: isolate;
   overflow: hidden;
+}
+
+.site-shell.lang-th {
+  font-family: "Noto Sans Thai", var(--display);
 }
 
 .skip-link {
@@ -277,6 +281,48 @@ a {
   letter-spacing: 0.1em;
 }
 
+.topbar-actions {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.language-toggle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3px;
+  border: 1px solid var(--line);
+  background: rgba(4, 14, 9, 0.78);
+}
+
+.language-toggle button {
+  min-width: 38px;
+  height: 27px;
+  border: 0;
+  color: var(--muted);
+  background: transparent;
+  font: 600 0.58rem var(--mono);
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.language-toggle button:hover {
+  color: var(--mint);
+}
+
+.language-toggle button.is-active {
+  color: var(--ink);
+  background: var(--green);
+  box-shadow: 0 0 14px rgba(76, 255, 136, 0.25);
+}
+
+.language-toggle button:focus-visible {
+  outline: 1px solid var(--green);
+  outline-offset: 2px;
+}
+
 .system-status i,
 .eyebrow-pulse,
 .image-label i,
@@ -450,6 +496,10 @@ main {
   color: var(--muted);
   font: 500 0.55rem/1.45 var(--mono);
   letter-spacing: 0.12em;
+}
+
+.hero-readout span > span {
+  display: block;
 }
 
 .hero-visual {
@@ -1398,6 +1448,10 @@ footer > a {
   .desktop-nav,
   .system-status {
     display: none;
+  }
+
+  .topbar-actions {
+    gap: 0.55rem;
   }
 
   .menu-trigger {
