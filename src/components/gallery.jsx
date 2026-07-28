@@ -3,13 +3,16 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import photoOne from "../assets/480865063_1802361093891350_790656756667980251_n.jpg";
+import photoTwo from "../assets/473179462_1769065723887554_8793699156138830219_n.jpg";
+import photoThree from "../assets/84357135_626707338123404_9013917309441409024_n.jpg";
 
 Modal.setAppElement("#root");
 
 const images = [
-  "/src/assets/480865063_1802361093891350_790656756667980251_n.jpg",
-  "/src/assets/473179462_1769065723887554_8793699156138830219_n.jpg",
-  "/src/assets/84357135_626707338123404_9013917309441409024_n.jpg",
+  photoOne,
+  photoTwo,
+  photoThree,
 ];
 
 // คอมโพเนนต์ Gallery จะรับ props เพื่อจัดการ Modal
