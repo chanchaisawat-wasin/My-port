@@ -1,6 +1,6 @@
 # Wasin Chanchaisawat Portfolio
 
-Personal portfolio built with React, Vite, Tailwind CSS, Framer Motion, Swiper, and tsparticles.
+Bilingual personal portfolio built with React and Vite.
 
 ## Scripts
 
