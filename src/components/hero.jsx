@@ -90,12 +90,15 @@ function Hero() {
       <div className="mt-6 flex flex-wrap justify-center gap-4">
         {[
           {
-            name: "Resume 1",
+            name: "Resume",
             file: publicAsset("Resume - Mr.Wasin Chanchaisawat.pdf"),
           },
-          { name: "Resume 2", file: publicAsset("วศิน ชาญชัยสวัสดิ์.pdf") },
           {
-            name: "CV",
+            name: "CV Thai Version",
+            file: publicAsset("CV-Wasin Chanchaisawat (Thai Ver.).pdf"),
+          },
+          {
+            name: "CV English Version",
             file: publicAsset("CV-Wasin Chanchaisawat (Eng ver.).pdf"),
           },
         ].map((btn, index) => (
