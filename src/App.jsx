@@ -38,7 +38,7 @@ const copyByLanguage = {
     nav: ["เกี่ยวกับ", "ทักษะ", "ผลงาน", "ติดต่อ"],
     available: "พร้อมร่วมงาน",
     hero: {
-      eyebrow: "นักพัฒนา FULL-STACK // กรุงเทพฯ",
+      eyebrow: "นักพัฒนา FULL-STACK // ชลบุรี",
       lines: ["สร้างสรรค์", "ดิจิทัล", "ให้เป็นจริง"],
       intro:
         "ผม วศิน ชาญชัยสวัสดิ์ — นักพัฒนา Full-Stack ที่เปลี่ยนไอเดียให้กลายเป็นระบบที่ชัดเจน ใช้งานได้จริง และพร้อมเติบโต",
@@ -164,7 +164,7 @@ const copyByLanguage = {
     nav: ["ABOUT", "SKILLS", "WORK", "CONTACT"],
     available: "AVAILABLE",
     hero: {
-      eyebrow: "FULL-STACK DEVELOPER // BANGKOK",
+      eyebrow: "FULL-STACK DEVELOPER // CHONBURI",
       lines: ["BUILDING", "DIGITAL", "REALITIES"],
       intro:
         "I’m Wasin Chanchaisawat — a Full-Stack Developer turning ambitious ideas into clear, practical systems built to grow.",
@@ -590,7 +590,7 @@ function App() {
                 <em>{copy.hero.active}</em>
               </div>
             </div>
-            <div className="coordinates">13.7563° N<br />100.5018° E</div>
+            <div className="coordinates">13.3114° N<br />101.1122° E</div>
           </motion.div>
 
           <div className="scroll-cue">
@@ -621,7 +621,8 @@ function App() {
                 <strong>WASIN<br />CHANCHAISAWAT</strong>
                 <div>
                   <small>ID</small><b>WC-199X-DEV</b>
-                  <small>{copy.about.base}</small><b>BANGKOK, TH</b>
+                  <small>{copy.about.base}</small>
+                  <b>{language === "th" ? "บ้านบึง, ชลบุรี" : "BAN BUNG, CHONBURI, TH"}</b>
                 </div>
               </div>
             </motion.div>
