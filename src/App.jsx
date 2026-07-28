@@ -43,7 +43,7 @@ const copyByLanguage = {
       intro:
         "ผม วศิน ชาญชัยสวัสดิ์ — นักพัฒนา Full-Stack ที่เปลี่ยนไอเดียให้กลายเป็นระบบที่ชัดเจน ใช้งานได้จริง และพร้อมเติบโต",
       explore: "ดูประสบการณ์",
-      resume: "ดาวน์โหลดเรซูเม่",
+      cv: "ดาวน์โหลด CV",
       years: "ปีแห่ง\nการพัฒนา",
       systems: "ระบบ\nเทคโนโลยี",
       panda: "โหมด\nแพนด้า",
@@ -169,7 +169,7 @@ const copyByLanguage = {
       intro:
         "I’m Wasin Chanchaisawat — a Full-Stack Developer turning ambitious ideas into clear, practical systems built to grow.",
       explore: "EXPLORE MY WORK",
-      resume: "DOWNLOAD RESUME",
+      cv: "DOWNLOAD CV",
       years: "YEARS\nBUILDING",
       systems: "TECH\nSYSTEMS",
       panda: "PANDA\nMODE",
@@ -541,11 +541,11 @@ function App() {
               </a>
               <a
                 className="button button--ghost"
-                href={publicAsset("Resume - Mr.Wasin Chanchaisawat.pdf")}
+                href={publicAsset("CV-Wasin-Chanchaisawat.pdf")}
                 download
               >
                 <FaDownload />
-                {copy.hero.resume}
+                {copy.hero.cv}
               </a>
             </motion.div>
 

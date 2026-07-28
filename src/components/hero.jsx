@@ -90,8 +90,8 @@ function Hero() {
       <div className="mt-6 flex flex-wrap justify-center gap-4">
         {[
           {
-            name: "Resume",
-            file: publicAsset("Resume - Mr.Wasin Chanchaisawat.pdf"),
+            name: "CV",
+            file: publicAsset("CV-Wasin-Chanchaisawat.pdf"),
           },
           {
             name: "CV Thai Version",
